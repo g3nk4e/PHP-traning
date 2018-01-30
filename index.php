@@ -1,20 +1,22 @@
+<!DOCTYPE html>
+<html lang = ja>
+<head>
+<meta charset="UTF-8">
+
+<title>PHPテスト</title>
+
+PHPの勉強をしていきます。
+
+</head>
+
+<body>
+<br><br>
 <?php 
-$name = "kei-yamaguchi<br />";
 
-echo $name;
+echo "5 * 6 = ",5 * 6;
 
-$num = 1;
-$num = $num + 1;
+?>
 
-echo $num;
 
-const NAME = "kei-yamaguchi<br />";
-
-echo NAME;
-
-define("PHP", "勉強してるなう");
-echo PHP;
-echo '<br>';
-define("SWIFT","すいふともべんきょうちゅう",true );
-echo swift;
-echo "<br>あいうえお<br>かきくけこ";
+</body>
+</html>
