@@ -1,18 +1,20 @@
 <?php 
+$name = "kei-yamaguchi<br />";
 
-//コメント
-#コメント
+echo $name;
 
-echo "hello from the TOP! ";
+$num = 1;
+$num = $num + 1;
 
-/*
- */
+echo $num;
 
-?>
+const NAME = "kei-yamaguchi<br />";
 
-<!DOCTYPE html>
-<html lang="ja">
-<body>
- <p>hello world <?php  echo "from PHP"; ?></p>
-</body>
-</html>
+echo NAME;
+
+define("PHP", "勉強してるなう");
+echo PHP;
+echo '<br>';
+define("SWIFT","すいふともべんきょうちゅう",true );
+echo swift;
+echo "<br>あいうえお<br>かきくけこ";
