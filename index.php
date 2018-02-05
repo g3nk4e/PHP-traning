@@ -36,19 +36,34 @@ echo 'ドメイン:' .$domain.'<br/>';
 
 switch ($domain){
 	case 'in':
-		echo 'インドのドメイン';
+		echo 'インドのドメイン<br/>';
 		break;
 	case 'cn':
-		echo '中国のドメイン';
+		echo '中国のドメイン<br/>';
 		break;
 	case 'jp':
-		echo '日本のドメイン';
+		echo '日本のドメイン<br/>';
 		break;
 	default:
 		print '不明です';
 }
 
+$signal = "Yellow";
 
+switch ($signal){
+	case "red":
+		echo "STOP!<br/>";
+		break;
+	case "blue":
+		echo "GO!<br/>";
+		break;
+	case "Yellow":
+		echo "STOP!butCanGO<br/>";
+		break;
+	default:
+		echo "wrong signal<br/>";
+			break;
+}
 
 ?>
 
